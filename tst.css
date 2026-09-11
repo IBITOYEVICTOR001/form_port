@@ -1,0 +1,142 @@
+#container{
+    position: absolute;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-image: url(img/victor.png);
+    background-position: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#center{
+    position: absolute;
+    display: block;
+    top: 28%;
+    background-size: cover;
+    height: 49%;
+    width: 20%;
+    left: 39%;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 6px;
+    
+}
+#cmd{
+    position: absolute;
+    display: block;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 98.2%;
+    width: 99%;
+    align-self: auto;
+    left: 1.15px;
+    top: 0.8%;
+    border-radius: 6px;
+}
+#log{
+    position: absolute;
+    display: block;
+    background-size: contain;
+    background-color: rgb(255, 255, 255, 0.5);
+    top: 0%;
+    align-items: center;
+    width: 85px;
+    height: 40px;
+    left: 32%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: radial-gradient(circle 20px at 0 0);
+}
+#login{
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 24%;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#username{
+    display: block;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.1);
+    background-size: cover;
+    border: 1px solid white;
+    top: 30%;
+    height: 37px;
+    width: 210px;
+    left: 8%;
+    border-radius: 30px;
+}
+#sticker{
+    display: block;
+    position: absolute;
+    right: 38px;
+    top: 32.2%;
+}
+#pass{
+    display: block;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.1);
+    background-size: cover;
+    border: 1px solid white;
+    top: 50%;
+    height: 37px;
+    width: 210px;
+    left: 8%;
+    border-radius: 30px;
+}
+#stick{
+    display: block;
+    position: absolute;
+    right: 38px;
+    top: 52.2%;
+}
+#remember{
+    display: block;
+    position: absolute;
+    top: 67%;
+    left: 19px;
+}
+#rem{
+    display: block;
+    position: absolute;
+    top: 67.7%;
+    left: 37px;
+    color: #ffffff;
+    font-size: small
+}
+#forgot{
+    display: block;
+    position: absolute;
+    top: 67.7%;
+    left: 150px;
+    color: #ffffff;
+    font-size: small;
+    text-decoration: none;
+}
+#ogin{
+    display: block;
+    position: absolute;
+    background-color: #ffffff;
+    color: black;
+    width: 210px;
+    height: 40px;
+    top: 76%;
+    left: 24px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+}
+#create{
+    display: block;
+    position: fixed;
+    top: 73%;
+    left: 535px;
+    color: #ffffff;
+    font-size: small;
+    text-decoration: none;
+    text-align: center;
+}
